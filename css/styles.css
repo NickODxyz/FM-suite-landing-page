@@ -1,0 +1,102 @@
+:root {
+    --grey-dark: hsl(219, 43%, 16%);
+    --grey-light: hsl(218, 20%, 36%);
+
+    --bg-dark: hsl(30, 33%, 93%);
+    --bg-light: hsl(30, 29%, 97%);
+
+    --violet: hsl(264, 100%, 69%);
+    --pink: hsl(292, 76%, 54%);
+    --orange: hsl(31, 100%, 65%);
+
+    --ff: "Epilogue", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*
+Typography
+*/
+.hero__heading {
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.157;
+    letter-spacing: 0.053rem;
+}
+.hero__text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.009rem;
+}
+.btn-light {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.714;
+    letter-spacing: 0.014rem;
+}
+.btn-dark {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.777;
+    letter-spacing: 0.018rem;
+}
+.stats__heading {
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 1.166;
+}
+.stats__text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.625;
+    letter-spacing: 0.25rem;
+}
+.card__heading {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.042rem;
+}
+.card__text {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.777;
+    letter-spacing: 0.009rem;
+}
+.signature__name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.777;
+    letter-spacing: 0.018rem;
+}
+.signature__abbr {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.625;
+    letter-spacing: 0.025rem;
+}
+.copyright {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.133;
+    letter-spacing: 0.008rem;
+}
+
+/*
+Utilities
+*/
+.set-flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    font-family: var(--ff);
+}
+
+.wrapper {
+    max-width: 144rem;
+}
