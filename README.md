@@ -29,7 +29,7 @@ This is a solution to the [Suite landing page challenge on Frontend Mentor](http
 
 ## Site links
 
-Hosted [Live Site]()
+Hosted [Live Site](https://nickodxyz.github.io/FM-suite-landing-page/)
 
 Frontend Mentor [Solution Page]()
 
